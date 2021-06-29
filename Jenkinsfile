@@ -8,7 +8,7 @@ pipeline {
            }
       }
 
- stages{
+
          stage("Test"){
             steps {
 
@@ -17,7 +17,6 @@ pipeline {
           }
       }
 
- stages{
          stage("Deploy"){
             steps {
                // deployment script
