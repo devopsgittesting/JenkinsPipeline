@@ -13,7 +13,7 @@ pipeline {
             steps {
 
                     //test execute script
-              echo "building the application....." 
+              echo "Testing the application....." 
           }
       }
 
@@ -21,7 +21,7 @@ pipeline {
             steps {
                // deployment script
 
-             echo "building the application....." 
+             echo "Deploying the application....." 
           }
       }
    }
